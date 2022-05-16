@@ -8,7 +8,6 @@ console.log(secretNumber);
 
 const displayMessage = function (message) {
   document.querySelector(".message").textContent = message;
-//   document.querySelector(".message").style.fontSize = "2.9rem";
 };
 
 document.querySelector(".check").addEventListener("click", function () {
