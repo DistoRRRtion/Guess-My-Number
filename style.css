@@ -122,11 +122,11 @@ h1 {
 
 @media (max-width: 680px) {
   header {
-    height: 38vh;
+    height: 40vh;
   }
   main {
     flex-wrap: wrap;
-    height: 50vh;
+    height: 55vh;
   }
   h1 {
     font-size: 3rem;
