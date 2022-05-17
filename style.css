@@ -126,7 +126,7 @@ h1 {
   }
   main {
     flex-wrap: wrap;
-    height: 53vh;
+    height: 55vh;
   }
   h1 {
     font-size: 2.5rem;
@@ -139,7 +139,7 @@ h1 {
     margin-bottom: 20px;
   }
   .between {
-    margin-top: 19vh;
+    margin-top: 20vh;
     font-size: 1rem;
   }
   .guess {
