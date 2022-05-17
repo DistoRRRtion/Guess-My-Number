@@ -134,6 +134,7 @@ h1 {
   .number {
     padding: 1rem 0rem;
     width: 15rem;
+    font-size: 4.5rem;
   }
   .message {
     margin-bottom: 20px;
