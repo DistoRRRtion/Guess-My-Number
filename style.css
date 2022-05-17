@@ -21,7 +21,8 @@ body {
 /* LAYOUT */
 header {
   position: relative;
-  height: 35vh;
+  height: 30vh;
+  /* height: 300px; */
   border-bottom: 7px solid #eee;
 }
 
@@ -121,10 +122,11 @@ h1 {
 
 @media (max-width: 680px) {
   header {
-    height: 35vh;
+    height: 38vh;
   }
   main {
     flex-wrap: wrap;
+    height: 50vh;
   }
   h1 {
     font-size: 3rem;
@@ -132,22 +134,23 @@ h1 {
   .number {
     font-size: 3rem;
   }
-  .guess {
-    padding: 1rem;
-    width: 16rem;
-  }
   .message {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
   .between {
-    margin-top: 42vh;
+    margin-top: 23vh;
   }
   .guess {
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 15px;
+    padding: 1rem;
+    width: 16rem;
   }
   .btn {
     padding: 1.5rem 1.5rem;
     font-size: 1.7rem;
+  }
+  .label-score {
+    margin-bottom: 1rem;
   }
 }
