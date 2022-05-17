@@ -4,10 +4,10 @@ let secretNumber;
 let score = 20;
 let highScore = 0;
 
-const secretNumberFunc = function () {
+const secretNumberGenerator  = function () {
   secretNumber = Math.trunc(Math.random() * 20) + 1;
 };
-secretNumberFunc();
+secretNumberGenerator();
 
 const displayMessage = function (message) {
   document.querySelector(".message").textContent = message;
@@ -43,7 +43,7 @@ document.querySelector(".check").addEventListener("click", function () {
 document.querySelector(".again").addEventListener("click", function () {
   score = 20;
 
-  secretNumberFunc();
+  secretNumberGenerator();
   displayMessage("Start guessing...");
 
   document.querySelector(".score").textContent = score;
