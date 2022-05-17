@@ -1,10 +1,13 @@
 "use strict";
 
-let secretNumber = Math.trunc(Math.random() * 20) + 1;
+let secretNumber;
 let score = 20;
 let highScore = 0;
 
-console.log(secretNumber);
+const secretNumberFunc = function () {
+  secretNumber = Math.trunc(Math.random() * 20) + 1;
+};
+secretNumberFunc();
 
 const displayMessage = function (message) {
   document.querySelector(".message").textContent = message;
@@ -39,9 +42,10 @@ document.querySelector(".check").addEventListener("click", function () {
 
 document.querySelector(".again").addEventListener("click", function () {
   score = 20;
-  secretNumber = Math.trunc(Math.random() * 20) + 1;
 
+  secretNumberFunc();
   displayMessage("Start guessing...");
+
   document.querySelector(".score").textContent = score;
   document.querySelector(".number").textContent = "?";
   document.querySelector(".guess").value = "";
@@ -49,5 +53,5 @@ document.querySelector(".again").addEventListener("click", function () {
   document.querySelector("body").style.backgroundColor = "#222";
   document.querySelector(".message").style.color = "white";
 
-  console.log(`Hint ${secretNumber}`);
+  console.log(`hint: ${secretNumber}`);
 });
