@@ -8,4 +8,4 @@ Guess my number is a simple game in which the user:
 - Check number of guesses
 - Check highest guess score
 
-![Guess my number](https://user-images.githubusercontent.com/99020542/189387559-9b71da31-fb76-48ad-92d4-07c01c5c4de2.gif)
+![gmn](https://user-images.githubusercontent.com/99020542/189478059-4ade0bc5-f391-43fe-ac14-0c6dc9ec4a4e.gif)
