@@ -9,3 +9,5 @@ Guess my number is a simple game in which the user:
 - Check highest guess score
 
 ![gmn](https://user-images.githubusercontent.com/99020542/189478059-4ade0bc5-f391-43fe-ac14-0c6dc9ec4a4e.gif)
+
+## -> [Click to view](https://distorrrtion.github.io/Guess-My-Number/)
